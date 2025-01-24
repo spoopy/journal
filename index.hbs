@@ -31,7 +31,7 @@
 
         <div class="gh-wrapper">
             <section class="gh-section">
-                <h2 class="gh-section-title">More issues</h2>
+                <h2 class="gh-section-title">More crap</h2>
 
                 <div class="gh-feed">
                     {{^is "paged"}}
@@ -74,18 +74,18 @@
                         {{^if @member.paid}}
                             <div class="gh-signup">
                                 {{^if @member}}
-                                    <p class="gh-signup-description">Sign up now to get access to the library of members-only issues.</p>
+                                    <p class="gh-signup-description">Howdy, pardner! Welcome to my online blog! YEEHAW! </p>
 
                                     <a class="gh-subscribe-input" href="#/portal/signup" data-portal="signup">
                                         <div class="gh-subscribe-input-text">
                                             {{> icons/email}}
-                                            jamie@example.com
+                                            you@cooldude.com
                                         </div>
                                         <div class="gh-subscribe-input-btn">Subscribe</div>
                                     </a>
                                 {{else}}
                                     {{#if @setting.paid_members_enabled}}
-                                        <p class="gh-signup-description">Upgrade to a paid account to get full access.</p>
+                                        <p class="gh-signup-description">Upgrade to a paid account to get full access to this garbage.</p>
                                         <a class="gh-signup-btn gh-btn gh-primary-btn" href="#/portal/account/plans" data-portal="account/plans">Upgrade now</a>
                                     {{/if}}
                                 {{/if}}
